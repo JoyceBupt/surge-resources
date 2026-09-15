@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "icons": [
+    {
+      "id": "boil",
+      "name": "BoilCloud",
+      "path": "icons/boil.png",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-icons/main/icons/boil.png",
+      "width": 180,
+      "height": 180,
+      "sha256": "0c8bc73937258b6473a908ecfdaef443526b6eb61050be917a37d583f6c070a6",
+      "source_file": "sources/boil.png",
+      "source_page": "https://cloud.boil.network/index.php",
+      "source_url": "https://cloud.boil.network/templates/hostlar/img/iosicon.png",
+      "source_sha256": "0c8bc73937258b6473a908ecfdaef443526b6eb61050be917a37d583f6c070a6",
+      "retrieved_on": "2026-09-15",
+      "processing": "Original PNG, unchanged"
+    },
+    {
+      "id": "kddi",
+      "name": "KDDI",
+      "path": "icons/kddi.png",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-icons/main/icons/kddi.png",
+      "width": 330,
+      "height": 151,
+      "sha256": "8baa8c963f1fb4c88476605890c38a46dd611a6f1b0feb6b19ac2181944e6094",
+      "source_file": "sources/kddi.png",
+      "source_page": "https://www.kddi.com/",
+      "source_url": "https://www.kddi.com/extlib/common/img_new/cmn_logo01.png",
+      "source_sha256": "8baa8c963f1fb4c88476605890c38a46dd611a6f1b0feb6b19ac2181944e6094",
+      "retrieved_on": "2026-09-15",
+      "processing": "Original PNG, unchanged"
+    },
+    {
+      "id": "att",
+      "name": "AT&T",
+      "path": "icons/att.png",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-icons/main/icons/att.png",
+      "width": 1658,
+      "height": 1658,
+      "sha256": "768f173e7537b4ecbdd82c445dfe1eae4b3b103de0ca886e7df999c7ed8489fc",
+      "source_file": "sources/att.png",
+      "source_page": "https://companieslogo.com/att/logo/",
+      "source_url": "https://companieslogo.com/img/orig/T-cec8a3f9.png?t=1740127114",
+      "source_sha256": "768f173e7537b4ecbdd82c445dfe1eae4b3b103de0ca886e7df999c7ed8489fc",
+      "retrieved_on": "2026-09-15",
+      "processing": "Original PNG, unchanged"
+    },
+    {
+      "id": "fxtransit",
+      "name": "FxTransit",
+      "path": "icons/fxtransit.png",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-icons/main/icons/fxtransit.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "402a53e1aa56639df202998ee8e8933f4e845b01965b2d2097e20eae5881faa5",
+      "source_file": "sources/fxtransit.svg",
+      "source_page": "https://fxtransit.io/",
+      "source_url": "https://fxtransit.io/icon.svg?icon.3ay4tqtoiv6-0.svg?dpl=dev",
+      "source_sha256": "fce8753f7cf5e840522a098e488bd46456156cb6fa7f84286bb22c37096e80a4",
+      "retrieved_on": "2026-09-15",
+      "processing": "SVG rasterized to 512x512 PNG with macOS sips"
+    }
+  ]
+}
