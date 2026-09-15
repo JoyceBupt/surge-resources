@@ -1,4 +1,4 @@
-name: Validate icons
+name: Validate resources
 on: [push, pull_request, workflow_dispatch]
 permissions:
   contents: read
@@ -11,3 +11,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/validate.py
+      - run: python scripts/validate_rules.py

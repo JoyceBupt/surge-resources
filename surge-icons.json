@@ -4,19 +4,19 @@
   "icons": [
     {
       "name": "BoilCloud",
-      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-icons/main/icons/boil.png"
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/boil.png"
     },
     {
       "name": "KDDI",
-      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-icons/main/icons/kddi.png"
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/kddi.png"
     },
     {
       "name": "AT&T",
-      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-icons/main/icons/att.png"
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/att.png"
     },
     {
       "name": "FxTransit",
-      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-icons/main/icons/fxtransit.png"
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/fxtransit.png"
     }
   ]
 }
