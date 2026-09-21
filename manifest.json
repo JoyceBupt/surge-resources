@@ -106,6 +106,22 @@
       "source_sha256": "b3f9f7ca9b6b158877c4209bf15322f6fd968290d71e65f68030897282554694",
       "retrieved_on": "2026-09-21",
       "processing": "User-provided PNG, unchanged"
+    },
+    {
+      "id": "cox-round-transparent",
+      "name": "COX Round Transparent",
+      "path": "icons/cox-round-transparent.png",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/cox-round-transparent.png",
+      "width": 316,
+      "height": 316,
+      "sha256": "8e99a9fd1f7a3cc9cfa168ffe5a75293ef00f9f44c22fac4cced4913bb9f3b23",
+      "source_file": "sources/cox-round.png",
+      "source_page": null,
+      "source_url": null,
+      "source_note": "User-provided COX round icon; original upstream source not supplied",
+      "source_sha256": "b3f9f7ca9b6b158877c4209bf15322f6fd968290d71e65f68030897282554694",
+      "retrieved_on": "2026-09-22",
+      "processing": "White matte removed using scripts/make_cox_transparent.py; original dimensions and interior RGB preserved"
     }
   ]
 }
