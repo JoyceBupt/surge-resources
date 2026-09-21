@@ -75,6 +75,21 @@
       "source_sha256": "f3ef8fb1f1cbfee56627f01a14c15d9262ccef80a5bf898573006acf95a64d29",
       "retrieved_on": "2026-09-21",
       "processing": "Original PNG, unchanged"
+    },
+    {
+      "id": "cox",
+      "name": "COX",
+      "path": "icons/cox.png",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/cox.png",
+      "width": 960,
+      "height": 294,
+      "sha256": "f5997d21ab1f80280ea5621e2eff4f27c87b6ce6c852364bfa12fb0e5ecdf508",
+      "source_file": "sources/cox.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cox_Communications_Logo.svg",
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Cox_Communications_Logo.svg/960px-Cox_Communications_Logo.svg.png",
+      "source_sha256": "f5997d21ab1f80280ea5621e2eff4f27c87b6ce6c852364bfa12fb0e5ecdf508",
+      "retrieved_on": "2026-09-21",
+      "processing": "Wikimedia PNG rendition, unchanged"
     }
   ]
 }

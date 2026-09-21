@@ -1,6 +1,6 @@
 {
   "name": "Joyce Surge Icons",
-  "description": "BoilCloud、KDDI、AT&T、FxTransit、NovixLink 策略组图标",
+  "description": "自用策略组图标",
   "icons": [
     {
       "name": "BoilCloud",
@@ -21,6 +21,10 @@
     {
       "name": "NovixLink",
       "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/novixlink.png"
+    },
+    {
+      "name": "COX",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/cox.png"
     }
   ]
 }
