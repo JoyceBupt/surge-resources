@@ -60,6 +60,21 @@
       "source_sha256": "fce8753f7cf5e840522a098e488bd46456156cb6fa7f84286bb22c37096e80a4",
       "retrieved_on": "2026-09-15",
       "processing": "SVG rasterized to 512x512 PNG with macOS sips"
+    },
+    {
+      "id": "novixlink",
+      "name": "NovixLink",
+      "path": "icons/novixlink.png",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/novixlink.png",
+      "width": 192,
+      "height": 192,
+      "sha256": "f3ef8fb1f1cbfee56627f01a14c15d9262ccef80a5bf898573006acf95a64d29",
+      "source_file": "sources/novixlink.png",
+      "source_page": "https://novixlink.com/clientarea.php",
+      "source_url": "https://novixlink.com/templates/lagom2/assets/img/favicons/favicon-192.png",
+      "source_sha256": "f3ef8fb1f1cbfee56627f01a14c15d9262ccef80a5bf898573006acf95a64d29",
+      "retrieved_on": "2026-09-21",
+      "processing": "Original PNG, unchanged"
     }
   ]
 }
