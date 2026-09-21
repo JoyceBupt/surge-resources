@@ -90,6 +90,22 @@
       "source_sha256": "f5997d21ab1f80280ea5621e2eff4f27c87b6ce6c852364bfa12fb0e5ecdf508",
       "retrieved_on": "2026-09-21",
       "processing": "Wikimedia PNG rendition, unchanged"
+    },
+    {
+      "id": "cox-round",
+      "name": "COX Round",
+      "path": "icons/cox-round.png",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/cox-round.png",
+      "width": 316,
+      "height": 316,
+      "sha256": "b3f9f7ca9b6b158877c4209bf15322f6fd968290d71e65f68030897282554694",
+      "source_file": "sources/cox-round.png",
+      "source_page": null,
+      "source_url": null,
+      "source_note": "User-provided image; original upstream source not supplied",
+      "source_sha256": "b3f9f7ca9b6b158877c4209bf15322f6fd968290d71e65f68030897282554694",
+      "retrieved_on": "2026-09-21",
+      "processing": "User-provided PNG, unchanged"
     }
   ]
 }

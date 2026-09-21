@@ -25,6 +25,10 @@
     {
       "name": "COX",
       "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/cox.png"
+    },
+    {
+      "name": "COX Round",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/cox-round.png"
     }
   ]
 }
