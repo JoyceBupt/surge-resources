@@ -1,14 +1,8 @@
 # Surge Resources
 
-集中托管 Surge 自定义图标与分流规则。资源公开读取，无需登录或携带 Token。
+集中托管 Surge 自定义图标。资源公开读取，无需登录或携带 Token。
 
-## Claude 规则
-
-```ini
-RULE-SET,https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/rules/Claude.list,Claude,no-resolve
-```
-
-详见 [规则来源与覆盖说明](rules/README.md)。仅托管可公开的资源；节点、订阅密钥、证书私钥及完整个人配置不进入此仓库。
+仅托管可公开的资源；节点、订阅密钥、证书私钥及完整个人配置不进入此仓库。
 
 ## 图标预览
 
@@ -38,7 +32,6 @@ icon-url=https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/
 ```text
 icons/                 可直接使用的 PNG
 sources/               下载的原始素材
-rules/                 自定义规则及来源说明
 manifest.json          来源、尺寸、处理方式与 SHA-256
 surge-icons.json       图标集订阅
 scripts/validate.py    本地与在线校验
@@ -55,9 +48,7 @@ LICENSE                原创代码及文档的许可范围
 
 ```sh
 python3 scripts/validate.py
-python3 scripts/validate_rules.py
 python3 scripts/validate.py --remote
-python3 scripts/validate_rules.py --remote
 ```
 
 更新图标时，同步更新原始素材、manifest 中的尺寸及 SHA-256，并运行校验。`main` 链接随更新变化；需要固定版本时，将 URL 中的 `main` 替换为完整提交 SHA。客户端可能缓存旧图标，更新后可重新加载图标或使用提交 SHA 链接。
