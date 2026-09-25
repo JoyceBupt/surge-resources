@@ -122,6 +122,22 @@
       "source_sha256": "b3f9f7ca9b6b158877c4209bf15322f6fd968290d71e65f68030897282554694",
       "retrieved_on": "2026-09-22",
       "processing": "White matte removed using scripts/make_cox_transparent.py; original dimensions and interior RGB preserved"
+    },
+    {
+      "id": "rfchost",
+      "name": "RFCHost",
+      "path": "icons/rfchost.png",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/rfchost.png",
+      "width": 512,
+      "height": 512,
+      "sha256": "1d77380f3f35cc5c3173190b74688e03734422f23000cf9c3bdf9f418b8a830d",
+      "source_file": "sources/rfchost.png",
+      "source_page": "https://www.rfchost.com/",
+      "source_url": null,
+      "source_note": "Square adaptation of the RFCHost website wordmark; the website does not offer a separate square logo. Rendered using Lexend Variable, matching the website typeface.",
+      "source_sha256": "1d77380f3f35cc5c3173190b74688e03734422f23000cf9c3bdf9f418b8a830d",
+      "retrieved_on": "2026-09-25",
+      "processing": "512x512 pure white background; RFC black and Host #00BC83; original generated PNG copied unchanged"
     }
   ]
 }
