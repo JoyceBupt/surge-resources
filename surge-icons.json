@@ -37,6 +37,10 @@
     {
       "name": "RFCHost",
       "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/rfchost.png"
+    },
+    {
+      "name": "RFC JP Custom",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/rfc-jp-avatar.png"
     }
   ]
 }

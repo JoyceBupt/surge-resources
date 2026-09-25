@@ -138,6 +138,22 @@
       "source_sha256": "1d77380f3f35cc5c3173190b74688e03734422f23000cf9c3bdf9f418b8a830d",
       "retrieved_on": "2026-09-25",
       "processing": "512x512 pure white background; RFC black and Host #00BC83; original generated PNG copied unchanged"
+    },
+    {
+      "id": "rfc-jp-avatar",
+      "name": "RFC JP Custom",
+      "path": "icons/rfc-jp-avatar.png",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/rfc-jp-avatar.png",
+      "width": 640,
+      "height": 640,
+      "sha256": "0cdabfa1e5024259f4bf62b49c0dcb2e7f358b6f35cabee52fb32139da45ecd7",
+      "source_file": "sources/rfc-jp-avatar.jpg",
+      "source_page": null,
+      "source_url": null,
+      "source_note": "User-provided image for personal RFC JP Surge policy group; not an official RFCHost brand asset",
+      "source_sha256": "d4f33d0299f055d3e70034a88351e6dd4e0cd530f3aa2200f0d1798ce930edd9",
+      "retrieved_on": "2026-09-25",
+      "processing": "Original 640x640 JPEG decoded to PNG with Pillow; pixels verified identical; no crop or retouch"
     }
   ]
 }
