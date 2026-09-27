@@ -154,6 +154,21 @@
       "source_sha256": "d4f33d0299f055d3e70034a88351e6dd4e0cd530f3aa2200f0d1798ce930edd9",
       "retrieved_on": "2026-09-25",
       "processing": "Original 640x640 JPEG decoded to PNG with Pillow; pixels verified identical; no crop or retouch"
+    },
+    {
+      "id": "blossom",
+      "name": "Blossom Host",
+      "path": "icons/blossom.png",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/blossom.png",
+      "width": 180,
+      "height": 180,
+      "sha256": "00a101bce3d684974883e2e88cd08eda03a412ce07c6c241b47644f6cd804979",
+      "source_file": "sources/blossom.png",
+      "source_page": "https://blossomhost.us/#/server/591",
+      "source_url": "https://blossomhost.us/assets/apple-touch-icon.png",
+      "source_sha256": "00a101bce3d684974883e2e88cd08eda03a412ce07c6c241b47644f6cd804979",
+      "retrieved_on": "2026-09-27",
+      "processing": "Original PNG, unchanged"
     }
   ]
 }
