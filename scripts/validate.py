@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate icon metadata, subscription URLs and optional published bytes."""
+"""Validate icons and Meta rules, with optional published-byte checks."""
 import argparse
 import hashlib
 import json
@@ -48,10 +48,24 @@ def main():
     require(subscription["icons"] == expected, "Subscription differs from manifest")
     require({p.name for p in (ROOT / "icons").iterdir()} == {f"{k}.png" for k in seen},
             "Unlisted files in icons directory")
+    meta = (ROOT / "rules/meta.list").read_bytes()
+    rules = [line for line in meta.decode("utf-8").splitlines()
+             if line and not line.startswith("#")]
+    require(len(rules) >= 500, "Meta ruleset is unexpectedly small")
+    require(len(rules) == len(set(rules)), "Duplicate Meta rules")
+    require(all(line.startswith(("DOMAIN,", "DOMAIN-SUFFIX,")) and line.count(",") == 1
+                for line in rules), "Unsupported Meta rule")
+    for domain in ("facebook.com", "instagram.com", "whatsapp.com", "threads.com",
+                   "meta.ai", "oculus.com", "muse.ai", "instagr.am", "metacareers.com"):
+        require(f"DOMAIN-SUFFIX,{domain}" in rules, f"Missing Meta domain: {domain}")
+    print(f"OK meta: {len(rules)} domain rules")
     if args.remote:
         with urllib.request.urlopen(BASE + "surge-icons.json", timeout=30) as response:
             require(json.load(response) == subscription, "Remote subscription differs")
-    print("PASS: icons, sources, metadata and subscription" + (" (including remote)" if args.remote else ""))
+        with urllib.request.urlopen(BASE + "rules/meta.list", timeout=30) as response:
+            require(response.read() == meta, "Remote Meta rules differ")
+    print("PASS: icons, sources, metadata, subscription and Meta rules" +
+          (" (including remote)" if args.remote else ""))
 
 
 if __name__ == "__main__":
