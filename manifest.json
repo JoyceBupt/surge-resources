@@ -169,6 +169,21 @@
       "source_sha256": "00a101bce3d684974883e2e88cd08eda03a412ce07c6c241b47644f6cd804979",
       "retrieved_on": "2026-09-27",
       "processing": "Original PNG, unchanged"
+    },
+    {
+      "id": "legend",
+      "name": "LegendVPS",
+      "path": "icons/legend.png",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/legend.png",
+      "width": 80,
+      "height": 80,
+      "sha256": "11270161a6f2b7842c8266040bd18ecae4b721b3be05aa465e256e1e3dd9bf98",
+      "source_file": "sources/legend.png",
+      "source_page": "https://legendvps.com/index.php",
+      "source_url": "https://legendvps.com/templates/hostlar/img/favicon.png",
+      "source_sha256": "11270161a6f2b7842c8266040bd18ecae4b721b3be05aa465e256e1e3dd9bf98",
+      "retrieved_on": "2026-09-29",
+      "processing": "Original website favicon PNG, unchanged"
     }
   ]
 }

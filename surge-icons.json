@@ -45,6 +45,10 @@
     {
       "name": "Blossom Host",
       "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/blossom.png"
+    },
+    {
+      "name": "LegendVPS",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/legend.png"
     }
   ]
 }
