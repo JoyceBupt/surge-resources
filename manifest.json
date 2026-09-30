@@ -184,6 +184,21 @@
       "source_sha256": "11270161a6f2b7842c8266040bd18ecae4b721b3be05aa465e256e1e3dd9bf98",
       "retrieved_on": "2026-09-29",
       "processing": "Original website favicon PNG, unchanged"
+    },
+    {
+      "id": "datawave",
+      "name": "DataWave",
+      "path": "icons/datawave.png",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/datawave.png",
+      "width": 112,
+      "height": 121,
+      "sha256": "cfd6571b008917bfff649f0ffb593dbd385818ed2c074e183f9d8706e863fd34",
+      "source_file": "sources/datawave.ico",
+      "source_page": "https://datawave.sh/console/product/server",
+      "source_url": "https://datawave.sh/console/assets/favicon.15595744.ico",
+      "source_sha256": "15595744e6bc21951dae03c2e277ce5063539843bc93e1a34bad8d4ce1c5eefc",
+      "retrieved_on": "2026-09-29",
+      "processing": "Website favicon converted to PNG with macOS sips; original dimensions preserved"
     }
   ]
 }

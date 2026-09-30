@@ -49,6 +49,10 @@
     {
       "name": "LegendVPS",
       "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/legend.png"
+    },
+    {
+      "name": "DataWave",
+      "url": "https://raw.githubusercontent.com/JoyceBupt/surge-resources/main/icons/datawave.png"
     }
   ]
 }
